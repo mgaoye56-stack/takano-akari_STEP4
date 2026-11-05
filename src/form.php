@@ -9,8 +9,8 @@
     <div class="container">
     <h1>フォーム入力</h1>
     <form action="confirm.php" method="post">
-        <label for="username">名前:</label>
-        <input type="text" id="username" name="username" required><br><br>
+        <label for="name">名前:</label>
+        <input type="text" id="name" name="name" required><br><br>
 
         <label for="age">年齢:</label>
         <input type="number" id="age" name="age" required><br><br>
@@ -22,7 +22,7 @@
         <input type="email" id="email" name="email" required><br><br>
 
         <label for="address">住所:</label>
-        <textarea id="address" name="address" rows="4"></textarea><br><br>
+        <textarea id="address" name="address" rows="4" required></textarea><br><br>
 
         <label for="question">質問:</label>
         <textarea id="question" name="question" rows="4"></textarea><br><br>
